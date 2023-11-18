@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "./build",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false
+  }
+}

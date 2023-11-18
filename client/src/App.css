@@ -1,0 +1,151 @@
+html {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.App {
+    background-color: rgba(134, 96, 124, 0.49);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+    padding: 20px;
+    transition: background 300ms;
+}
+
+/*.container {*/
+/*    width: 500px;*/
+/*}*/
+
+label {
+    margin: 10px 0 5px;
+}
+
+.title {
+    font-size: 2em;
+}
+
+
+.content {
+    width: 90%;
+}
+
+.add-new-form {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-new-form-footer {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+input {
+    border-radius: 5px;
+    height: 2em;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.add-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    background: #487e76;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.delete-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    background: #834863;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-item p {
+    margin: 5px;
+}
+
+.plot {
+    display: flex;
+    justify-content: center;
+}
+
+.plot svg {
+    box-sizing: border-box;
+    fill: cadetblue;
+    padding: 20px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.green-price {
+    color: green;
+}
+
+.red-price {
+    color: red;
+}
+
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-container {
+    /*margin: 10px 0;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-container a {
+    width: 250px;
+}
+
+.table-column td {
+    width: 33%;
+}

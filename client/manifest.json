@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Price drop PCT gear",
+    "description": "This is a Chrome extension built with React and TypeScript that checks the price on gear periodically",
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "Price drop PCT gear"
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "price-drop-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "watch": "env ENV=dev nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/server.ts -e ts",
+    "test": "test"
+  },
+  "author": "Zsuzsa Hudacsko",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "body-parser": "^1.20.2",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.6.0",
+    "firebase-admin": "^11.11.0",
+    "fireorm": "^0.23.3",
+    "morgan": "^1.10.0",
+    "puppeteer": "^19.6.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.16",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.0.1"
+  }
+}
